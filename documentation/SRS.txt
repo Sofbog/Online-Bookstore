@@ -1,0 +1,46 @@
+Software Requirements Specification (SRS)
+Introduction
+The purpose of this document is to provide a detailed description of the requirements for the Online Bookstore web application. This document will outline the functional and non-functional requirements for the application, as well as the user interface design and system architecture.
+
+Scope
+The Online Bookstore web application is a simple online platform that allows customers to browse and purchase books. The application will provide the following features:
+
+Display a list of available books
+Display detailed information about a specific book
+Allow customers to create an account
+Allow customers to view their account details
+Allow customers to purchase a book
+Functional Requirements
+Display a list of available books
+The application should display a list of all available books to the user. The list should include the book title, author, and price.
+
+Display detailed information about a specific book
+When the user clicks on a specific book, the application should display detailed information about the book, including the book title, author, description, and price.
+
+Allow customers to create an account
+The application should allow customers to create an account by providing their name and email address.
+
+Allow customers to view their account details
+The application should allow customers to view their account details, including their name, email address, and purchase history.
+
+Allow customers to purchase a book
+The application should allow customers to purchase a book by selecting the book they want to purchase and providing payment information.
+
+Non-Functional Requirements
+Usability
+The application should be easy to use and navigate, with clear and concise user interface elements.
+
+Performance
+The application should be able to handle a large number of users and transactions without significant performance degradation.
+
+Security
+The application should implement appropriate security measures to protect user data and prevent unauthorized access.
+
+User Interface Design
+The user interface for the Online Bookstore web application will consist of a simple, clean design with clear navigation elements. The home page will display a list of available books, with the ability to search and filter the list. Clicking on a book will take the user to a detailed book page, where they can view more information and purchase the book.
+
+System Architecture
+The Online Bookstore web application will be built using the Flask web framework and will utilize a MySQL database to store book and customer data. The application will be hosted on a web server and will be accessible through a web browser.
+
+Conclusion
+The Online Bookstore web application provides a simple and easy-to-use platform for customers to browse and purchase books online. The application satisfies the functional and non-functional requirements outlined in this document, and provides a clean and intuitive user interface for customers to interact with.
