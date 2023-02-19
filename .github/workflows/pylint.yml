@@ -20,4 +20,4 @@ jobs:
           pip install pylint
 
       - name: Run Pylint
-        run: pylint your_python_file.py
+        run: pylint main.py
